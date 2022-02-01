@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Calculator from './Calculator';
 
 
 ReactDOM.render(
   <>
-    <h1>Hello World</h1>
+    <Calculator />
   </>,
   document.getElementById('root')
 );
